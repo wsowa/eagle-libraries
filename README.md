@@ -1,7 +1,7 @@
 # stpm34-eagle-library
 
 ## STPM34
-This is a Eagle library containing ST's STPM34 chip (ASSP for metering applications with up to four independent 24-bit 2nd order sigma-delta ADCs, 4 MHz OSF and 2 embedded PGLNA). Datasheet: http://www.st.com/content/st_com/en/products/data-converters/metering-ics/stpm34.html
+This is an Eagle library containing ST's STPM34 chip (ASSP for metering applications with up to four independent 24-bit 2nd order sigma-delta ADCs, 4 MHz OSF and 2 embedded PGLNA). Datasheet: http://www.st.com/content/st_com/en/products/data-converters/metering-ics/stpm34.html
 
 ## STPM33
 
