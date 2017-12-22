@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;H1&gt;FNE Library - Power Convertors&lt;/h1&gt;
+&lt;p&gt;Knihovna obsahuje měniče pro napájení, měniče snižující, zvyšující, invertující i obvody pro řízení zdrojů ZETA a SEPIC a obvody nábojových pum.&lt;/p&gt;
+&lt;p&gt;Library contain DC-DC convertors (step-up (boost), step-down (buck), inverting, circuits for driving ZETA and SEPIC pover supplies and charge pumps.&lt;/p&gt;</description>
+<packages>
+<package name="SOIC127P1032X265-16N">
+<smd name="1" x="-4.699" y="4.445" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="2" x="-4.699" y="3.175" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="3" x="-4.699" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="4" x="-4.699" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="5" x="-4.699" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="6" x="-4.699" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="7" x="-4.699" y="-3.175" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="8" x="-4.699" y="-4.445" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="9" x="4.699" y="-4.445" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="10" x="4.699" y="-3.175" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="11" x="4.699" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="12" x="4.699" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="13" x="4.699" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="14" x="4.699" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="15" x="4.699" y="3.175" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="16" x="4.699" y="4.445" dx="1.9812" dy="0.5588" layer="1"/>
+<wire x1="-3.81" y1="4.191" x2="-3.81" y2="4.699" width="0" layer="51"/>
+<wire x1="-3.81" y1="4.699" x2="-5.334" y2="4.699" width="0" layer="51"/>
+<wire x1="-5.334" y1="4.699" x2="-5.334" y2="4.191" width="0" layer="51"/>
+<wire x1="-5.334" y1="4.191" x2="-3.81" y2="4.191" width="0" layer="51"/>
+<wire x1="-3.81" y1="2.921" x2="-3.81" y2="3.429" width="0" layer="51"/>
+<wire x1="-3.81" y1="3.429" x2="-5.334" y2="3.429" width="0" layer="51"/>
+<wire x1="-5.334" y1="3.429" x2="-5.334" y2="2.921" width="0" layer="51"/>
+<wire x1="-5.334" y1="2.921" x2="-3.81" y2="2.921" width="0" layer="51"/>
+<wire x1="-3.81" y1="1.651" x2="-3.81" y2="2.159" width="0" layer="51"/>
+<wire x1="-3.81" y1="2.159" x2="-5.334" y2="2.159" width="0" layer="51"/>
+<wire x1="-5.334" y1="2.159" x2="-5.334" y2="1.651" width="0" layer="51"/>
+<wire x1="-5.334" y1="1.651" x2="-3.81" y2="1.651" width="0" layer="51"/>
+<wire x1="-3.81" y1="0.381" x2="-3.81" y2="0.889" width="0" layer="51"/>
+<wire x1="-3.81" y1="0.889" x2="-5.334" y2="0.889" width="0" layer="51"/>
+<wire x1="-5.334" y1="0.889" x2="-5.334" y2="0.381" width="0" layer="51"/>
+<wire x1="-5.334" y1="0.381" x2="-3.81" y2="0.381" width="0" layer="51"/>
+<wire x1="-3.81" y1="-0.889" x2="-3.81" y2="-0.381" width="0" layer="51"/>
+<wire x1="-3.81" y1="-0.381" x2="-5.334" y2="-0.381" width="0" layer="51"/>
+<wire x1="-5.334" y1="-0.381" x2="-5.334" y2="-0.889" width="0" layer="51"/>
+<wire x1="-5.334" y1="-0.889" x2="-3.81" y2="-0.889" width="0" layer="51"/>
+<wire x1="-3.81" y1="-2.159" x2="-3.81" y2="-1.651" width="0" layer="51"/>
+<wire x1="-3.81" y1="-1.651" x2="-5.334" y2="-1.651" width="0" layer="51"/>
+<wire x1="-5.334" y1="-1.651" x2="-5.334" y2="-2.159" width="0" layer="51"/>
+<wire x1="-5.334" y1="-2.159" x2="-3.81" y2="-2.159" width="0" layer="51"/>
+<wire x1="-3.81" y1="-3.429" x2="-3.81" y2="-2.921" width="0" layer="51"/>
+<wire x1="-3.81" y1="-2.921" x2="-5.334" y2="-2.921" width="0" layer="51"/>
+<wire x1="-5.334" y1="-2.921" x2="-5.334" y2="-3.429" width="0" layer="51"/>
+<wire x1="-5.334" y1="-3.429" x2="-3.81" y2="-3.429" width="0" layer="51"/>
+<wire x1="-3.81" y1="-4.699" x2="-3.81" y2="-4.191" width="0" layer="51"/>
+<wire x1="-3.81" y1="-4.191" x2="-5.334" y2="-4.191" width="0" layer="51"/>
+<wire x1="-5.334" y1="-4.191" x2="-5.334" y2="-4.699" width="0" layer="51"/>
+<wire x1="-5.334" y1="-4.699" x2="-3.81" y2="-4.699" width="0" layer="51"/>
+<wire x1="3.81" y1="-4.191" x2="3.81" y2="-4.699" width="0" layer="51"/>
+<wire x1="3.81" y1="-4.699" x2="5.334" y2="-4.699" width="0" layer="51"/>
+<wire x1="5.334" y1="-4.699" x2="5.334" y2="-4.191" width="0" layer="51"/>
+<wire x1="5.334" y1="-4.191" x2="3.81" y2="-4.191" width="0" layer="51"/>
+<wire x1="3.81" y1="-2.921" x2="3.81" y2="-3.429" width="0" layer="51"/>
+<wire x1="3.81" y1="-3.429" x2="5.334" y2="-3.429" width="0" layer="51"/>
+<wire x1="5.334" y1="-3.429" x2="5.334" y2="-2.921" width="0" layer="51"/>
+<wire x1="5.334" y1="-2.921" x2="3.81" y2="-2.921" width="0" layer="51"/>
+<wire x1="3.81" y1="-1.651" x2="3.81" y2="-2.159" width="0" layer="51"/>
+<wire x1="3.81" y1="-2.159" x2="5.334" y2="-2.159" width="0" layer="51"/>
+<wire x1="5.334" y1="-2.159" x2="5.334" y2="-1.651" width="0" layer="51"/>
+<wire x1="5.334" y1="-1.651" x2="3.81" y2="-1.651" width="0" layer="51"/>
+<wire x1="3.81" y1="-0.381" x2="3.81" y2="-0.889" width="0" layer="51"/>
+<wire x1="3.81" y1="-0.889" x2="5.334" y2="-0.889" width="0" layer="51"/>
+<wire x1="5.334" y1="-0.889" x2="5.334" y2="-0.381" width="0" layer="51"/>
+<wire x1="5.334" y1="-0.381" x2="3.81" y2="-0.381" width="0" layer="51"/>
+<wire x1="3.81" y1="0.889" x2="3.81" y2="0.381" width="0" layer="51"/>
+<wire x1="3.81" y1="0.381" x2="5.334" y2="0.381" width="0" layer="51"/>
+<wire x1="5.334" y1="0.381" x2="5.334" y2="0.889" width="0" layer="51"/>
+<wire x1="5.334" y1="0.889" x2="3.81" y2="0.889" width="0" layer="51"/>
+<wire x1="3.81" y1="2.159" x2="3.81" y2="1.651" width="0" layer="51"/>
+<wire x1="3.81" y1="1.651" x2="5.334" y2="1.651" width="0" layer="51"/>
+<wire x1="5.334" y1="1.651" x2="5.334" y2="2.159" width="0" layer="51"/>
+<wire x1="5.334" y1="2.159" x2="3.81" y2="2.159" width="0" layer="51"/>
+<wire x1="3.81" y1="3.429" x2="3.81" y2="2.921" width="0" layer="51"/>
+<wire x1="3.81" y1="2.921" x2="5.334" y2="2.921" width="0" layer="51"/>
+<wire x1="5.334" y1="2.921" x2="5.334" y2="3.429" width="0" layer="51"/>
+<wire x1="5.334" y1="3.429" x2="3.81" y2="3.429" width="0" layer="51"/>
+<wire x1="3.81" y1="4.699" x2="3.81" y2="4.191" width="0" layer="51"/>
+<wire x1="3.81" y1="4.191" x2="5.334" y2="4.191" width="0" layer="51"/>
+<wire x1="5.334" y1="4.191" x2="5.334" y2="4.699" width="0" layer="51"/>
+<wire x1="5.334" y1="4.699" x2="3.81" y2="4.699" width="0" layer="51"/>
+<wire x1="-3.81" y1="-5.2578" x2="3.81" y2="-5.2578" width="0" layer="51"/>
+<wire x1="3.81" y1="-5.2578" x2="3.81" y2="5.2578" width="0" layer="51"/>
+<wire x1="3.81" y1="5.2578" x2="-3.81" y2="5.2578" width="0" layer="51"/>
+<wire x1="-3.81" y1="5.2578" x2="-3.81" y2="-5.2578" width="0" layer="51"/>
+<wire x1="0.3048" y1="5.2578" x2="-0.3048" y2="5.2578" width="0" layer="51" curve="-180"/>
+<text x="-5.5118" y="4.8768" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="3.81" y1="5.0546" x2="3.81" y2="5.2578" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-5.0546" x2="-3.81" y2="-5.2578" width="0.1524" layer="21"/>
+<wire x1="6.0198" y1="-2.9464" x2="7.0358" y2="-2.9464" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-5.2578" x2="3.81" y2="-5.2578" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-5.2578" x2="3.81" y2="-5.0546" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="5.2578" x2="-3.81" y2="5.2578" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="5.2578" x2="-3.81" y2="5.0546" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="5.2578" x2="-0.3048" y2="5.2578" width="0.1524" layer="21" curve="-180"/>
+<text x="-5.5118" y="4.8768" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.4544" y="6.985" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-8.255" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="SMD-8B">
+<wire x1="3.048" y1="4.6609" x2="3.048" y2="-4.6609" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="-4.6609" x2="-3.048" y2="4.6609" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="4.6609" x2="3.048" y2="4.6698" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="-4.6609" x2="3.048" y2="-4.6609" width="0.127" layer="21"/>
+<wire x1="0.508" y1="4.6609" x2="-0.508" y2="4.6609" width="0.127" layer="21" curve="-136.474986"/>
+<circle x="-2.2281" y="3.7285" radius="0.4169" width="0.127" layer="21"/>
+<smd name="S1" x="-4.318" y="3.7275" dx="2.032" dy="1.1684" layer="1"/>
+<smd name="S2" x="-4.318" y="1.3716" dx="2.032" dy="1.524" layer="1"/>
+<smd name="BP" x="-4.318" y="-1.1938" dx="2.032" dy="1.524" layer="1"/>
+<smd name="FB" x="-4.318" y="-3.5369" dx="2.032" dy="1.1684" layer="1"/>
+<smd name="S4" x="4.318" y="3.7275" dx="2.032" dy="1.1684" layer="1"/>
+<smd name="S3" x="4.318" y="1.3716" dx="2.032" dy="1.524" layer="1"/>
+<smd name="D" x="4.318" y="-3.5369" dx="2.032" dy="1.1684" layer="1"/>
+<text x="-2.5941" y="5.4097" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.7767" y="-6.268" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="SMD_DIL8_N6">
+<wire x1="-0.4064" y1="-2.3876" x2="8.89" y2="-2.3876" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.3876" x2="8.89" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-8.2804" x2="1.1176" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="1.1176" y1="-8.2804" x2="0.0762" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="0.0762" y1="-8.2804" x2="-0.4064" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="-0.4064" y1="-8.2804" x2="-0.4064" y2="-2.3876" width="0.127" layer="21"/>
+<wire x1="0.0762" y1="-8.2804" x2="0.0762" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="0.0762" y1="-9.398" x2="1.1176" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="1.1176" y1="-9.398" x2="1.1176" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="2.4384" y1="-8.2804" x2="2.4384" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="2.4384" y1="-9.398" x2="3.4798" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="3.4798" y1="-9.398" x2="3.4798" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="4.9784" y1="-8.2804" x2="4.9784" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="4.9784" y1="-9.398" x2="6.0198" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="6.0198" y1="-9.398" x2="6.0198" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="7.3406" y1="-8.2804" x2="7.3406" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="7.3406" y1="-9.398" x2="8.382" y2="-9.398" width="0.127" layer="21"/>
+<wire x1="8.382" y1="-9.398" x2="8.382" y2="-8.2804" width="0.127" layer="21"/>
+<wire x1="8.382" y1="-2.3622" x2="8.382" y2="-1.2446" width="0.127" layer="21"/>
+<wire x1="8.382" y1="-1.2446" x2="7.3406" y2="-1.2446" width="0.127" layer="21"/>
+<wire x1="7.3406" y1="-1.2446" x2="7.3406" y2="-2.3622" width="0.127" layer="21"/>
+<wire x1="3.4798" y1="-2.3622" x2="3.4798" y2="-1.2446" width="0.127" layer="21"/>
+<wire x1="3.4798" y1="-1.2446" x2="2.4384" y2="-1.2446" width="0.127" layer="21"/>
+<wire x1="2.4384" y1="-1.2446" x2="2.4384" y2="-2.3622" width="0.127" layer="21"/>
+<wire x1="1.1176" y1="-2.3622" x2="1.1176" y2="-1.2446" width="0.127" layer="21"/>
+<wire x1="1.1176" y1="-1.2446" x2="0.0762" y2="-1.2446" width="0.127" layer="21"/>
+<wire x1="0.0762" y1="-1.2446" x2="0.0762" y2="-2.3622" width="0.127" layer="21"/>
+<smd name="P8" x="0.5842" y="-1.016" dx="1.1684" dy="2.032" layer="1"/>
+<smd name="P7" x="2.9464" y="-1.016" dx="1.524" dy="2.032" layer="1"/>
+<smd name="P5" x="7.8486" y="-1.016" dx="1.1684" dy="2.032" layer="1"/>
+<smd name="P1" x="0.5842" y="-9.652" dx="1.1684" dy="2.032" layer="1"/>
+<smd name="P2" x="2.9464" y="-9.652" dx="1.524" dy="2.032" layer="1"/>
+<smd name="P3" x="5.4864" y="-9.652" dx="1.524" dy="2.032" layer="1"/>
+<smd name="P4" x="7.8486" y="-9.652" dx="1.1684" dy="2.032" layer="1"/>
+<text x="-0.8636" y="-8.5344" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="10.6172" y="-8.2296" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="DIL_8_N6">
+<wire x1="0.635" y1="1.27" x2="0.635" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-8.89" x2="6.985" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="6.985" y1="-8.89" x2="6.985" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21" curve="180"/>
+<circle x="1.905" y="0.635" radius="0.3175" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.9" shape="long"/>
+<pad name="2" x="0" y="-2.54" drill="0.9" shape="long"/>
+<pad name="3" x="0" y="-5.08" drill="0.9" shape="long"/>
+<pad name="4" x="0" y="-7.62" drill="0.9" shape="long"/>
+<pad name="5" x="7.62" y="-7.62" drill="0.9" shape="long" rot="R180"/>
+<pad name="7" x="7.62" y="-2.54" drill="0.9" shape="long" rot="R180"/>
+<pad name="8" x="7.62" y="0" drill="0.9" shape="long" rot="R180"/>
+<text x="0.635" y="-10.795" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SO08">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
+<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
+<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
+<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
+<circle x="-1.8034" y="-0.9906" radius="0.3556" width="0.0508" layer="21"/>
+<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<text x="4.0005" y="-2.032" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-2.7305" y="-2.032" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
+<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
+<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
+<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
+<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
+<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
+<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
+<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
+</package>
+<package name="DFN8-3X3">
+<description>&lt;b&gt;DD Package 8-Lead Plastic DFN (3mm × 3mm)&lt;/b&gt;&lt;p&gt;
+Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="0.7513" y1="-1.2987" x2="0.7513" y2="-0.4856" width="0.254" layer="1"/>
+<circle x="-0.75" y="-0.775" radius="0.275" width="0" layer="51"/>
+<smd name="EXP" x="0" y="0" dx="2.38" dy="1.65" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-0.75" y="-1.35" dx="0.25" dy="0.45" layer="1" roundness="25" stop="no" cream="no"/>
+<smd name="2" x="-0.25" y="-1.35" dx="0.25" dy="0.45" layer="1" roundness="25" stop="no" cream="no"/>
+<smd name="3" x="0.25" y="-1.35" dx="0.25" dy="0.45" layer="1" roundness="25" stop="no" cream="no"/>
+<smd name="4" x="0.75" y="-1.35" dx="0.25" dy="0.45" layer="1" roundness="25" stop="no" cream="no"/>
+<smd name="5" x="0.75" y="1.35" dx="0.25" dy="0.45" layer="1" roundness="25" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="0.25" y="1.35" dx="0.25" dy="0.45" layer="1" roundness="25" stop="no" cream="no"/>
+<smd name="7" x="-0.25" y="1.35" dx="0.25" dy="0.45" layer="1" roundness="25" stop="no" cream="no"/>
+<smd name="8" x="-0.75" y="1.35" dx="0.25" dy="0.45" layer="1" roundness="25" stop="no" cream="no"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.9" y1="1.1" x2="-0.6" y2="1.6" layer="29"/>
+<rectangle x1="-0.4" y1="1.1" x2="-0.1" y2="1.6" layer="29"/>
+<rectangle x1="0.1" y1="1.1" x2="0.4" y2="1.6" layer="29"/>
+<rectangle x1="0.6" y1="1.1" x2="0.9" y2="1.6" layer="29"/>
+<rectangle x1="-0.9" y1="-1.6" x2="-0.6" y2="-1.1" layer="29"/>
+<rectangle x1="-0.4" y1="-1.6" x2="-0.1" y2="-1.1" layer="29"/>
+<rectangle x1="0.1" y1="-1.6" x2="0.4" y2="-1.1" layer="29"/>
+<rectangle x1="0.6" y1="-1.6" x2="0.9" y2="-1.1" layer="29"/>
+<rectangle x1="-0.85" y1="1.15" x2="-0.65" y2="1.55" layer="31"/>
+<rectangle x1="-0.35" y1="1.15" x2="-0.15" y2="1.55" layer="31"/>
+<rectangle x1="0.15" y1="1.15" x2="0.35" y2="1.55" layer="31"/>
+<rectangle x1="0.65" y1="1.15" x2="0.85" y2="1.55" layer="31"/>
+<rectangle x1="-0.85" y1="-1.55" x2="-0.65" y2="-1.15" layer="31"/>
+<rectangle x1="-0.35" y1="-1.55" x2="-0.15" y2="-1.15" layer="31"/>
+<rectangle x1="0.15" y1="-1.55" x2="0.35" y2="-1.15" layer="31"/>
+<rectangle x1="0.65" y1="-1.55" x2="0.85" y2="-1.15" layer="31"/>
+<rectangle x1="-1.1" y1="-0.75" x2="1.125" y2="0.75" layer="31"/>
+<rectangle x1="0.5994" y1="-1.1024" x2="0.8992" y2="-0.8738" layer="29"/>
+<polygon width="0.2032" layer="29">
+<vertex x="-1.15" y="0.775"/>
+<vertex x="-1.15" y="-0.615"/>
+<vertex x="-0.965" y="-0.775"/>
+<vertex x="1.125" y="-0.775"/>
+<vertex x="1.125" y="0.775"/>
+</polygon>
+</package>
+<package name="DIL08">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SO-08">
+<description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
+150-mil body, package type SN</description>
+<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
+</package>
+<package name="TO220_7C">
+<wire x1="-3.81" y1="0" x2="-2.8575" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="0" x2="-2.2225" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="0" x2="4.7625" y2="0" width="0.127" layer="21"/>
+<wire x1="5.3975" y1="0" x2="6.35" y2="0" width="0.127" layer="21"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="3.4925" width="0.127" layer="21"/>
+<wire x1="6.35" y1="3.4925" x2="6.35" y2="5.08" width="0.127" layer="21"/>
+<wire x1="6.35" y1="5.08" x2="-3.81" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="3.4925" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="3.4925" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="3.4925" x2="6.35" y2="3.4925" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="0" x2="-2.8575" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="-3.81" x2="-2.2225" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-2.2225" y1="-3.81" x2="-2.2225" y2="0" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="-3.81" x2="5.3975" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="5.3975" y1="-3.81" x2="5.3975" y2="0" width="0.127" layer="21"/>
+<wire x1="5.3975" y1="0" x2="4.7625" y2="0" width="0.127" layer="21"/>
+<wire x1="4.7625" y1="0" x2="4.7625" y2="-3.81" width="0.127" layer="21"/>
+<pad name="L" x="-1.27" y="2.54" drill="1" shape="offset" rot="R90"/>
+<pad name="S" x="1.27" y="2.54" drill="1" shape="offset" rot="R90"/>
+<pad name="X" x="0" y="0" drill="1" shape="offset" rot="R270"/>
+<pad name="F" x="2.54" y="0" drill="1" shape="offset" rot="R270"/>
+<pad name="C" x="-2.54" y="-3.81" drill="1" shape="long" rot="R270"/>
+<pad name="D" x="5.08" y="-3.81" drill="1" shape="long" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ADUM5000ARWZ">
+<pin name="VDD1_2" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="VDD1" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="RCIN" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="RCSEL" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="VSEL" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="GNDISO_2" x="17.78" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="GNDISO" x="17.78" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="GND1_2" x="-17.78" y="-15.24" length="middle" direction="pas"/>
+<pin name="GND1" x="-17.78" y="-17.78" length="middle" direction="pas"/>
+<pin name="VISO_2" x="17.78" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="VISO" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="RCOUT" x="-17.78" y="-7.62" length="middle" direction="out"/>
+<pin name="NC_2" x="-17.78" y="-12.7" length="middle" direction="nc"/>
+<pin name="NC_3" x="17.78" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC_4" x="17.78" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC" x="17.78" y="-12.7" length="middle" direction="nc" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-20.32" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="12.7" y2="-20.32" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
+<text x="-12.573" y="17.2212" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-6.3246" y="-24.003" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="LNK302/304-306">
+<wire x1="-5.08" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="-10.16" size="1.27" layer="94">LNK302/304-306</text>
+<pin name="D" x="-10.16" y="-2.54" visible="pin" length="middle"/>
+<pin name="S" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="FB" x="-2.54" y="10.16" visible="pin" length="middle" rot="R270"/>
+<pin name="BP" x="7.62" y="10.16" visible="pin" length="middle" rot="R270"/>
+</symbol>
+<symbol name="LNK500">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-3.175" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="3.175" x2="-3.175" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="0.635" x2="-3.175" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="4.445" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="6.985" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="-1.905" x2="6.985" y2="0" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="0" x2="6.985" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="6.985" y1="4.445" x2="0" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="6.985" y2="0" width="0.1524" layer="94"/>
+<text x="1.27" y="0.635" size="1.27" layer="94">CTRL</text>
+<text x="-4.445" y="5.715" size="1.27" layer="94">D</text>
+<text x="8.255" y="0.635" size="1.27" layer="94">C</text>
+<text x="-9.525" y="-4.445" size="1.27" layer="94">5xS</text>
+<text x="-15.24" y="-0.635" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-15.24" y="1.27" size="1.27" layer="95">&gt;NAME</text>
+<pin name="S1" x="-5.08" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="S2" x="-2.54" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="S3" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="S4" x="2.54" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="S5" x="5.08" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="C" x="10.16" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="D" x="-5.08" y="7.62" visible="off" length="short" direction="pwr" rot="R270"/>
+</symbol>
+<symbol name="MC34063">
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="-7.62" y2="8.89" width="0.254" layer="94"/>
+<text x="-6.35" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-6.35" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<pin name="SC" x="-10.16" y="7.62" visible="pin" length="short"/>
+<pin name="SE" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="TC" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="-7.62" visible="pin" length="short"/>
+<pin name="CII" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="IPS" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="DC" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="NCP3063">
+<wire x1="-7.62" y1="8.89" x2="-7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-8.89" x2="7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-8.89" x2="7.62" y2="8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="-7.62" y2="8.89" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.6764" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="12.7" size="1.6764" layer="95">&gt;NAME</text>
+<pin name="SC" x="-10.16" y="7.62" length="short"/>
+<pin name="SE" x="-10.16" y="2.54" length="short"/>
+<pin name="TC" x="-10.16" y="-2.54" length="short"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short"/>
+<pin name="CII" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="VCC" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="IPS" x="10.16" y="2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="TC7660">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="NC" x="-10.16" y="5.08" visible="pin" length="short"/>
+<pin name="C+" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="C-" x="-10.16" y="-10.16" visible="pin" length="short"/>
+<pin name="V+" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="OSC" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="LV" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VOUT" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="TOP242PN">
+<wire x1="-7.62" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.508" y1="5.08" x2="0.508" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0.508" y1="0.508" x2="0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.508" x2="0.508" y2="0.508" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="4.572" width="0.254" layer="94"/>
+<wire x1="2.54" y1="4.572" x2="0.508" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0.508" y1="2.54" x2="1.016" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="3.048" x2="1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="1.016" y2="2.032" width="0.254" layer="94"/>
+<wire x1="1.016" y1="2.032" x2="0.508" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.508" y1="4.064" x2="0.508" y2="3.302" width="0.254" layer="94"/>
+<wire x1="0.508" y1="1.016" x2="0.508" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="4.318" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-6.858" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-6.858" y1="0.762" x2="-6.858" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-6.858" y1="4.318" x2="-2.54" y2="4.318" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.524" x2="-6.35" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.794" x2="-6.35" y2="3.556" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="3.556" x2="-5.842" y2="3.556" width="0.254" layer="94"/>
+<wire x1="-5.842" y1="3.556" x2="-5.588" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="3.302" x2="-5.588" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="3.048" x2="-5.842" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-5.842" y1="2.794" x2="-6.35" y2="2.794" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="2.54" x2="-5.588" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="1.778" x2="-5.334" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-5.334" y1="1.524" x2="-5.08" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.778" x2="-4.826" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="1.524" x2="-4.572" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="1.778" x2="-4.572" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="2.54" x2="-4.064" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="1.524" x2="-4.064" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="2.286" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.556" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="1.524" x2="-3.556" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="2.286" x2="-3.302" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="2.54" x2="-3.048" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="2.286" x2="-3.048" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="11.43" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="8.89" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="S0" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S3" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="D" x="2.54" y="10.16" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="M" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="C" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TOP244YN">
+<wire x1="-30.48" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-30.48" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-15.24" x2="-30.48" y2="-7.62" width="0.254" layer="94"/>
+<pin name="S" x="-17.78" y="-20.32" length="middle" rot="R90"/>
+<pin name="C" x="-7.62" y="-10.16" length="middle" rot="R180"/>
+<pin name="L" x="-25.4" y="-2.54" length="middle" rot="R270"/>
+<pin name="X" x="-22.86" y="-20.32" length="middle" rot="R90"/>
+<pin name="D" x="-20.32" y="-2.54" length="middle" rot="R270"/>
+<pin name="F" x="-27.94" y="-20.32" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADUM5000ARWZ" prefix="IO">
+<description>&lt;h1&gt;2.5 kV, Isolated DC-to-DC Converter&lt;/h1&gt;
+&lt;h2&gt;ADUM5000&lt;/h2&gt;
+
+&lt;b&gt;FEATURES&lt;/b&gt;&lt;br&gt; isoPower integrated, isolated dc-to-dc converter&lt;br&gt; Regulated 3.3 V or 5 V output&lt;br&gt; Up to 500 mW output power&lt;br&gt;
+16-lead SOIC package with 7.6 mm creepage&lt;br&gt;
+High temperature operation: 105°C maximum&lt;br&gt;
+Thermal overload protection&lt;br&gt;
+Safety and regulatory approvals&lt;br&gt;
+UL recognition 2500 V rms for 1 minute per UL 1577&lt;br&gt; CSA Component Acceptance Notice #5A&lt;br&gt; VDE certificate of conformity (pending)&lt;br&gt;
+IEC 60747-5-2 (VDE 0884, Part 2)&lt;br&gt;
+VIORM = 560 V peak &lt;br&gt;&lt;br&gt;
+&lt;b&gt;APPLICATIONS&lt;/b&gt;&lt;br&gt;
+RS-232/RS-422/RS-485 transceivers&lt;br&gt; Industrial field bus isolation&lt;br&gt;
+Power supply startups and gate drives&lt;br&gt; Isolated sensor interfaces&lt;br&gt;
+Industrial PLCs&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;GENERAL DESCRIPTION&lt;/b&gt;&lt;br&gt;
+The ADuM50001 is an isolated dc-to-dc converter based on the Analog Devices, Inc., iCoupler® technology. The dc-to-dc
+converter in this device provides regulated, isolated power in several combinations of input and output voltages as listed in
+Table 1. The Analog Devices chip scale transformer, iCoupler technology,
+transfers isolated power in this dc-to-dc converter with up to 33% efficiency. The result is a small form factor, total isolation
+solution.&lt;br&gt;
+Higher output power levels are obtained by using the ADuM5000 to augment the power output of ADuM5401, ADuM5402,
+ADuM5403, ADuM5404, ADuM520x, and other ADuM5000 iCouplers with isoPower®. isoPower uses high frequency switching elements to transfer power
+through its transformer. Special care must be taken during printed circuit board (PCB) layout to meet emissions standards. See the
+AN-0971 Application Note for board layout recommendations.
+
+&lt;br&gt;&lt;br&gt;&lt;b&gt;APPLICATIONS INFORMATION&lt;/b&gt;&lt;br&gt;
+The dc-to-dc converter section of the ADuM5000 works on principles that are common to most switching power supplies. It has a secondary side controller architecture with isolated pulse-
+width modulation (PWM) feedback. VDD1 power is supplied to an oscillating circuit that switches current into a chip scale air
+core transformer. Power transferred to the secondary side is
+rectified and regulated to either 3.3 V or 5 V. The secondary (VISO)
+side controller regulates the output by creating a PWM control signal that is sent to the primary (VDD1) side by a dedicated
+iCoupler data channel. The PWM modulates the oscillator circuit to control the power being sent to the secondary side. Feedback
+allows for significantly higher power and efficiency. The ADuM5000 provides a regulation control output (RCOUT)
+signal that can be connected to other isoPower devices. This feature allows a single regulator to control multiple power modules without
+contention. When auxiliary power modules are present, the VISO
+pins can be connected together to work as a single supply. Because there is only one feedback control path, the supplies work together
+seamlessly. The ADuM5000 can be a source of regulation control,
+as well as being controlled by another isoPower device.
+There is an undervoltage lockout (UVLO) with hysteresis in the
+VDD1 input protection circuit. When the input voltage rises above
+the UVLO threshold, the dc-to-dc converter becomes active.
+The input voltage must be decreased below the turn-on threshold
+by the hysteresis value to disable the converter. This feature has many benefits in the power-up sequence of the converter, such as ensuring that the system supply rises to a minimum level
+before the ADuM5000 demands current. It also prevents any
+voltage drop due to converter current from turning the supply off and possibly oscillating.
+
+&lt;br&gt;&lt;br&gt;&lt;b&gt;PCB LAYOUT &lt;/b&gt;&lt;br&gt;
+The ADuM5000 digital isolator is a 0.5 W isoPower integrated dc-to-dc converter that requires no external interface circuitry
+for the logic interfaces. Power supply bypassing is required at
+the input and output supply pins (see Figure 14). The power supply section of the ADuM5000 uses a 180 MHz
+oscillator frequency to pass power efficiently through its chip scale transformers. In addition, the normal operation of the data section of the iCoupler introduces switching transients on the power supply pins. Bypass capacitors are required for several operating frequencies. Noise suppression requires a low inductance, high frequency capacitor, whereas ripple suppression and proper regulation require a large value capacitor. These
+capacitors are most conveniently connected between Pin 1 and
+Pin 2 for VDD1, and between Pin 15 and Pin 16 for VISO.
+To suppress noise and reduce ripple, a parallel combination of at least two capacitors is required. The recommended capacitor
+values are 0.1 μF and 10 μF. Best practice recommends using a
+very low inductance ceramic capacitor, or its equivalent, for the
+smaller value. The total lead length between both ends of the
+capacitor and the input power supply pin should not exceed 10 mm. Consider bypassing between Pin 1 and Pin 8 and
+between Pin 9 and Pin 16 unless both common ground pins are connected together close to the package
+ In applications involving high common-mode transients, ensure
+that board coupling across the isolation barrier is minimized. Furthermore, design the board layout such that any coupling that does occur affects all pins equally on a given component side. Failure to ensure this can cause voltage differentials between pins exceeding the absolute maximum ratings for the device
+as specified in Table 10, thereby leading to latch-up and/or permanent damage.
+The ADuM5000 is a power device that dissipates approximately
+1 W of power when fully loaded. Because it is not possible to apply
+a heat sink to an isolation device, the device primarily depends on heat dissipation into the PCB through the GND pins. If the device is used at high ambient temperatures, provide a thermal
+path from the GND pins to the PCB ground plane. The board
+layout in Figure 14 shows enlarged pads for Pin 2 and Pin 8
+(GND1) and for Pin 9 and Pin 15 (GNDISO). Implement multiple
+vias from the pad to the ground plane to significantly reduce the temperature inside the chip. The dimensions of the expanded pads are at the discretion of the designer and depend on the
+available board space. 
+
+&lt;br&gt;&lt;br&gt;&lt;b&gt;START-UP BEHAVIOR&lt;/b&gt;&lt;br&gt;
+The ADuM5000 does not contain a soft start circuit. Take the
+start-up current and voltage behavior into account when designing with this device. When power is applied to VDD1, the input switching circuit begins to operate and draw current when the UVLO minimum voltage
+is reached. The switching circuit drives the maximum available power to the output until it reaches the regulation voltage where PWM control begins. The amount of current and time this
+takes depends on the load and the VDD1 slew rate.
+With a fast VDD1 slew rate (200 μs or less), the peak current
+draws up to 100 mA/V of VDD1. The input voltage goes high faster than the output can turn on; therefore, the peak current is proportional to the maximum input voltage. With a slow VDD1 slew rate (in the millisecond range), the input voltage does not change quickly when VDD1 reaches UVLO. The current surge is about 300 mA because VDD1 is nearly constant at the 2.7 V UVLO point. The behavior during start-up is similar
+to when the device load is a short circuit; these values are con-
+sistent with the short-circuit current shown in Figure 7. When starting the device for VISO = 5 V operation, do not limit
+the current available to the VDD1 power pin to less than 300 mA. The ADuM5000 may not be able to drive the output to the
+regulation point if a current-limiting device clamps the VDD1
+voltage during startup. As a result, the ADuM5000 can draw large amounts of current at low voltage for extended periods. The output voltage of the ADuM5000 device exhibits VISO over-
+shoot during startup. If this could potentially damage components attached to VISO, then a voltage-limiting device, such as a Zener
+diode, can be used to clamp the voltage. Typical behavior is shown in Figure 12 and Figure 13.
+
+&lt;br&gt;&lt;br&gt;&lt;b&gt;EMI CONSIDERATIONS&lt;/b&gt;&lt;br&gt;
+It is necessary for the dc-to-dc converter section of the ADuM5000
+to operate at 180 MHz to allow efficient power transfer through
+the small transformers. This creates high frequency currents that can propagate in circuit board ground and power planes, causing
+edge emissions and dipole radiation between the input and output
+ground planes. Grounded enclosures are recommended for applications that use these devices. If grounded enclosures are
+not possible, follow good RF design practices in the layout of the PCB. See the AN-0971 Application Note for board layout recommendations. 
+
+&lt;br&gt;&lt;br&gt;&lt;b&gt;THERMAL ANALYSIS &lt;/b&gt;&lt;br&gt;
+The ADuM5000 consists of four internal silicon die, attached to
+a split lead frame with two die attach paddles. For the purposes
+of thermal analysis, it is treated as a thermal unit with the highest junction temperature reflected in the θJA from Table 5. The value
+of θJA is based on measurements taken with the part mounted on a JEDEC standard 4-layer board with fine width traces and
+still air. Under normal operating conditions, the ADuM5000
+operates at full load across the full temperature range without
+derating the output current. However, following the recommen-
+dations in the PCB Layout section decreases the thermal resistance
+to the PCB, allowing increased thermal margin at high ambient
+temperatures.
+
+&lt;br&gt;&lt;br&gt;&lt;b&gt;CURRENT LIMIT AND THERMAL OVERLOAD PROTECTION &lt;/b&gt;&lt;br&gt;
+The ADuM5000 is protected against damage due to excessive
+power dissipation by thermal overload protection circuits. Thermal overload protection limits the junction temperature to a maximum of 150°C (typical). Under extreme conditions (that is, high ambient
+temperature and power dissipation), when the junction temper-
+ature starts to rise above 150°C, the PWM is turned off, which
+turns off the output current. When the junction temperature
+falls below 130°C (typical), the PWM turns on again, restoring
+the output current to its nominal value. Consider the case where a hard short from VISO to ground occurs. At first, the ADuM5000 reaches its maximum current, which is
+proportional to the voltage applied at VDD1. Power dissipates on the primary side of the converter (see Figure 7). If self-heating of the junction becomes great enough to cause its temperature to rise above 150°C, thermal shutdown activates, turning off the PWM
+and turning off the output current. As the junction temperature
+cools and falls below 130°C, the PWM turns on and power
+dissipates again on the primary side of the converter, causing
+the junction temperature to rise to 150°C again. This thermal
+oscillation between 130°C and 150°C causes the part to cycle
+on and off as long as the short remains at the output. Thermal limit protections are intended to protect the device against accidental overload conditions. For reliable operation,
+externally limit device power dissipation to prevent junction
+temperatures from exceeding 130°C.
+
+&lt;br&gt;&lt;br&gt;&lt;b&gt;POWER CONSIDERATIONS&lt;/b&gt;&lt;br&gt;
+The ADuM5000 converter primary side is protected from pre-
+mature operation by undervoltage lockout (UVLO) circuitry. Below the minimum operating voltage, the power converter
+holds its oscillator inactive. When the primary side oscillator begins to operate, it transfers
+power to the secondary power circuits. The secondary VISO voltage starts below its UVLO limit making it inactive and unable to generate a regulation control signal. The primary side power oscillator is allowed to free run under this condition, supplying
+the maximum amount of power to the secondary side. As the secondary side voltage rises to its regulation setpoint, a large inrush current transient is present at VDD1. When the
+regulation point is reached, the regulation control circuit produces the regulation control signal that modulates the oscillator on the primary side. The VDD1 current is then reduced and is proportional to the load current. The inrush current is less than the short-
+circuit current shown in Figure 7. The duration of the inrush depends on the VISO loading conditions and on the current and voltage available at the VDD1 pin.</description>
+<gates>
+<gate name="A" symbol="ADUM5000ARWZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P1032X265-16N">
+<connects>
+<connect gate="A" pin="GND1" pad="2"/>
+<connect gate="A" pin="GND1_2" pad="8"/>
+<connect gate="A" pin="GNDISO" pad="15"/>
+<connect gate="A" pin="GNDISO_2" pad="9"/>
+<connect gate="A" pin="NC" pad="14"/>
+<connect gate="A" pin="NC_2" pad="3"/>
+<connect gate="A" pin="NC_3" pad="11"/>
+<connect gate="A" pin="NC_4" pad="12"/>
+<connect gate="A" pin="RCIN" pad="4"/>
+<connect gate="A" pin="RCOUT" pad="5"/>
+<connect gate="A" pin="RCSEL" pad="6"/>
+<connect gate="A" pin="VDD1" pad="7"/>
+<connect gate="A" pin="VDD1_2" pad="1"/>
+<connect gate="A" pin="VISO" pad="16"/>
+<connect gate="A" pin="VISO_2" pad="10"/>
+<connect gate="A" pin="VSEL" pad="13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="ADUM5000ARWZ" constant="no"/>
+<attribute name="OC_FARNELL" value="1701256" constant="no"/>
+<attribute name="OC_NEWARK" value="19P8235" constant="no"/>
+<attribute name="PACKAGE" value="SOIC-16" constant="no"/>
+<attribute name="SUPPLIER" value="Analog Devices" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LNK30">
+<description>&lt;h1&gt;Lowest Component Count, Energy-Efficient Off-Line Switcher IC&lt;/h1&gt;
+&lt;h2&gt;LNK302, LNK304, LNK305, LKN306&lt;/h2&gt;&lt;br&gt;
+
+&lt;b&gt;Product Highlights&lt;/b&gt;&lt;br&gt;
+Cost Effective Linear/Cap Dropper Replacement
+• Lowest cost and component count buck converter solution&lt;br&gt;
+• Fully integrated auto-restart for short-circuit and open
+loop fault protection – saves external component costs&lt;br&gt;
+• LNK302 uses a simplifi ed controller without auto-restart
+for very low system cost&lt;br&gt;
+• 66 kHz operation with accurate current limit – allows low cost
+off-the-shelf 1 mH inductor for up to 120 mA output current&lt;br&gt;
+• Tight tolerances and negligible temperature variation&lt;br&gt;
+• High breakdown voltage of 700 V provides excellent
+input surge withstand&lt;br&gt;
+• Frequency jittering dramatically reduces EMI (~10 dB)
+– minimizes EMI fi lter cost&lt;br&gt;
+• High thermal shutdown temperature (+135 °C minimum)&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Much Higher Performance over Discrete Buck and
+Passive Solutions&lt;/b&gt;&lt;br&gt;
+• Supports buck, buck-boost and fl yback topologies&lt;br&gt;
+• System level thermal overload, output short-circuit and
+open control loop protection&lt;br&gt;
+• Excellent line and load regulation even with typical
+confi guration&lt;br&gt;
+• High bandwidth provides fast turn-on with no overshoot&lt;br&gt;
+• Current limit operation rejects line ripple&lt;br&gt;
+• Universal input voltage range (85 VAC to 265 VAC)&lt;br&gt;
+• Built-in current limit and hysteretic thermal protection&lt;br&gt;
+• Higher effi ciency than passive solutions&lt;br&gt;
+• Higher power factor than capacitor-fed solutions&lt;br&gt;
+• Entirely manufacturable in SMD&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;EcoSmart®– Extremely Energy Efficient&lt;/b&gt;&lt;br&gt;
+• Consumes typically only 50/80 mW in self-powered buck
+topology at 115/230 VAC input with no load (opto feedback)&lt;br&gt;
+• Consumes typically only 7/12 mW in fl yback topology
+with external bias at 115/230 VAC input with no load&lt;br&gt;
+• Meets California Energy Commission (CEC), Energy
+Star, and EU requirements&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Applications&lt;/b&gt;&lt;br&gt;
+• Appliances and timers&lt;br&gt;
+• LED drivers and industrial controls&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Description&lt;/b&gt;&lt;br&gt;
+LinkSwitch-TN is specifi cally designed to replace all linear and
+capacitor-fed (cap dropper) non-isolated power supplies in the
+under 360 mA output current range at equal system cost while
+offering much higher performance and energy efficiency.
+&lt;br&gt;
+LinkSwitch-TN devices integrate a 700 V power MOSFET,
+oscillator, simple On/Off control scheme, a high voltage switched
+current source, frequency jittering, cycle-by-cycle current limit
+and thermal shutdown circuitry onto a monolithic IC. The startup
+and operating power are derived directly from the voltage
+on the DRAIN pin, eliminating the need for a bias supply and
+associated circuitry in buck or fl yback converters. The fully
+integrated auto-restart circuit in the LNK304-306 safely limits
+output power during fault conditions such as short-circuit or
+open loop, reducing component count and system-level load
+protection cost. A local supply provided by the IC allows use
+of a non-safety graded optocoupler acting as a level shifter to
+further enhance line and load regulation performance in buck
+and buck-boost converters, if required.</description>
+<gates>
+<gate name="G$1" symbol="LNK302/304-306" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SMD-8B">
+<connects>
+<connect gate="G$1" pin="BP" pad="BP"/>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="FB" pad="FB"/>
+<connect gate="G$1" pin="S" pad="S1"/>
+</connects>
+<technologies>
+<technology name="2">
+<attribute name="MPN" value="LNK302GN" constant="no"/>
+<attribute name="OC_FRANELL" value="1134738" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+<attribute name="PACKAGE" value=" SMD-8" constant="no"/>
+<attribute name="SUPPLIER" value="POWER INTEGRATIONS" constant="no"/>
+</technology>
+<technology name="4">
+<attribute name="MPN" value="LNK304GN" constant="no"/>
+<attribute name="OC_FRANELL" value="1448221" constant="no"/>
+<attribute name="PACKAGE" value=" SMD-8" constant="no"/>
+<attribute name="SUPPLIER" value="POWER INTEGRATIONS" constant="no"/>
+</technology>
+<technology name="5">
+<attribute name="MPN" value="LNK305GN" constant="no"/>
+<attribute name="PACKAGE" value=" SMD-8" constant="no"/>
+<attribute name="SUPPLIER" value="POWER INTEGRATIONS" constant="no"/>
+</technology>
+<technology name="6">
+<attribute name="MPN" value="LNK306GN" constant="no"/>
+<attribute name="OC_FRANELL" value="1448228" constant="no"/>
+<attribute name="PACKAGE" value=" SMD-8" constant="no"/>
+<attribute name="SUPPLIER" value="POWER INTEGRATIONS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MC34063" prefix="IC">
+<description>MC34063A  DC?to?DC converters.
+Step?Down and Step?Up and Voltage?Inverting 
+
+&gt; Operation from 3.0 V to 40 V Input
+&gt; Low Standby Current
+&gt; Current Limiting
+&gt; Output Switch Current to 1.5 A
+&gt; Output Voltage Adjustable
+&gt; Frequency Operation to 100 kHz
+&gt; Precision 2% Reference</description>
+<gates>
+<gate name="G$1" symbol="MC34063" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="CII" pad="5"/>
+<connect gate="G$1" pin="DC" pad="8"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IPS" pad="7"/>
+<connect gate="G$1" pin="SC" pad="1"/>
+<connect gate="G$1" pin="SE" pad="2"/>
+<connect gate="G$1" pin="TC" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCP3063-DFN08" prefix="IO">
+<description>1.5 A, Step-Up/Down/ Inverting Switching Regulators
+
+EP Flag must be tied to GND Pin 4
+on PCB !!!
+
+- SC _ Switch Collector
+- SE _ Switch Emitor
+- TC _ Timing Capacitor
+- GND _ GROUND
+- IPS _ Current peak sense
+- VCC _ Supply voltage (+)
+- CII _ Comparator Inverting Input
+
+Features
+&gt; Operation to 40 V Input
+&gt; Low Standby Current
+&gt; Output Switch Current to 1.5 A
+&gt; Output Voltage Adjustable
+&gt; Frequency Operation of 150 kHz
+&gt; Precision 1.5% Reference
+&gt; New Features: Internal Thermal Shutdown with Hysteresis
+New Features: Cycle?by?Cycle Current Limiting
+&gt; Pb?Free Packages are Available
+Applications
+&gt; Step?Down, Step?Up and Inverting supply applications
+&gt; High Power LED Lighting
+&gt; Battery Chargers</description>
+<gates>
+<gate name="G$1" symbol="NCP3063" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN8-3X3">
+<connects>
+<connect gate="G$1" pin="CII" pad="5"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IPS" pad="7"/>
+<connect gate="G$1" pin="SC" pad="1"/>
+<connect gate="G$1" pin="SE" pad="2"/>
+<connect gate="G$1" pin="TC" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCP3063-DIL08" prefix="IO">
+<description>1.5 A, Step-Up/Down/ Inverting Switching Regulators
+
+EP Flag must be tied to GND Pin 4
+on PCB !!!
+
+- SC _ Switch Collector
+- SE _ Switch Emitor
+- TC _ Timing Capacitor
+- GND _ GROUND
+- IPS _ Current peak sense
+- VCC _ Supply voltage (+)
+- CII _ Comparator Inverting Input
+
+Features
+&gt; Operation to 40 V Input
+&gt; Low Standby Current
+&gt; Output Switch Current to 1.5 A
+&gt; Output Voltage Adjustable
+&gt; Frequency Operation of 150 kHz
+&gt; Precision 1.5% Reference
+&gt; New Features: Internal Thermal Shutdown with Hysteresis
+New Features: Cycle?by?Cycle Current Limiting
+&gt; Pb?Free Packages are Available
+Applications
+&gt; Step?Down, Step?Up and Inverting supply applications
+&gt; High Power LED Lighting
+&gt; Battery Chargers</description>
+<gates>
+<gate name="G$1" symbol="NCP3063" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL08">
+<connects>
+<connect gate="G$1" pin="CII" pad="5"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IPS" pad="7"/>
+<connect gate="G$1" pin="SC" pad="1"/>
+<connect gate="G$1" pin="SE" pad="2"/>
+<connect gate="G$1" pin="TC" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCP3063_SO08" prefix="IO">
+<description>1.5 A, Step-Up/Down/ Inverting Switching Regulators
+
+- SC _ Switch Collector
+- SE _ Switch Emitor
+- TC _ Timing Capacitor
+- GND _ GROUND
+- IPS _ Current peak sense
+- VCC _ Supply voltage (+)
+- CII _ Comparator Inverting Input
+
+Features
+&gt; Operation to 40 V Input
+&gt; Low Standby Current
+&gt; Output Switch Current to 1.5 A
+&gt; Output Voltage Adjustable
+&gt; Frequency Operation of 150 kHz
+&gt; Precision 1.5% Reference
+&gt; New Features: Internal Thermal Shutdown with Hysteresis
+New Features: Cycle?by?Cycle Current Limiting
+&gt; Pb?Free Packages are Available
+Applications
+&gt; Step?Down, Step?Up and Inverting supply applications
+&gt; High Power LED Lighting
+&gt; Battery Chargers</description>
+<gates>
+<gate name="G$1" symbol="NCP3063" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO-08">
+<connects>
+<connect gate="G$1" pin="CII" pad="5"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IPS" pad="7"/>
+<connect gate="G$1" pin="SC" pad="1"/>
+<connect gate="G$1" pin="SE" pad="2"/>
+<connect gate="G$1" pin="TC" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC7660" prefix="IO">
+<description>Charge Pump DC-to-DC Voltage Converter
+
+
+Features
+&gt; Wide Input Voltage Range: +1.5V to +10V
+&gt; Efficient Voltage Conversion (99.9%, typ)
+&gt; Excellent Power Efficiency (98%, typ)
+&gt; Low Power Consumption: 80 ?A (typ) @ VIN = 5V
+&gt; Low Cost and Easy to Use
+&gt; Only Two External Capacitors Required
+&gt; Improved ESD Protection (3 kV HBM)
+&gt; No External Diode Required for High-VoltageOperation
+
+Applications
+&gt; RS-232 Negative Power Supply
+&gt; Simple Conversion of +5V to ±5V Supplies
+&gt; Voltage Multiplication VOUT = ± n V+
+&gt; Negative Supplies for Data Acquisition Systems
+and Instrumentation</description>
+<gates>
+<gate name="G$1" symbol="TC7660" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="C+" pad="2"/>
+<connect gate="G$1" pin="C-" pad="4"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="LV" pad="6"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="OSC" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TOP242PN" prefix="IO">
+<description>Integrated Off-line Switcher
+
+- Extended power range to 22 W
+- Features eliminate or reduce cost of external components
+- Fully integrated soft-start for minimum stress/overshoot 
+- Externally programmable accurate current limit
+- Wider duty cycle for more power, smaller input capacitor
+- Line under-voltage (UV) detection: no turn off glitches
+- Line overvoltage (OV) shutdown extends line surge limit
+- Line feed forward with maximum duty cycle (DCMAX)
+reduction rejects line ripple and limits DCMAX at high line
+- Frequency jittering reduces EMI and EMI filtering costs
+- Regulates to zero load without dummy loading
+- Half frequency option in Y/R packages for video applications
+- Hysteretic thermal shutdown for automatic fault recovery
+- Large thermal hysteresis prevents PC board overheating</description>
+<gates>
+<gate name="G$1" symbol="TOP242PN" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="DIL_8_N6">
+<connects>
+<connect gate="G$1" pin="C" pad="4"/>
+<connect gate="G$1" pin="D" pad="5"/>
+<connect gate="G$1" pin="M" pad="1"/>
+<connect gate="G$1" pin="S0" pad="2"/>
+<connect gate="G$1" pin="S1" pad="3"/>
+<connect gate="G$1" pin="S2" pad="8"/>
+<connect gate="G$1" pin="S3" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
